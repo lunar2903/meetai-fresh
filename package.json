@@ -9,7 +9,8 @@
     "lint": "next lint",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio",
-    "dev:webhook": "ngrok http 3000"
+    "dev:webhook": "ngrok http --domain=noncivilized-tilelike-crissy.ngrok-free.dev 3000",
+    "dev:agent": "node agent-server.mjs"
   },
   "dependencies": {
     "@dicebear/collection": "^9.2.2",

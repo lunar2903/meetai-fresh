@@ -1,0 +1,21 @@
+﻿Testing real connection with gpt-4o-realtime-preview...
+URL it will connect to: wss://video.stream-io-api.com/video/connect_agent?call_type=default&call_id=dummy_test_meeting_123&api_key=hsyheumjedhv
+Connected successfully to Unpatched SDK call!
+Patched URL: wss://video.stream-io-api.com/video/connect_agent?call_type=default&call_id=dummy_test_meeting_123&api_key=hsyheumjedhv&model=gpt-4o-realtime-preview-2024-12-17
+node : SDK patched error: {
+At line:1 char:1
++ node test-stream-sdk.mjs > test-results.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (SDK patched error: {: 
+   String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  type: 'error',
+  error: {
+    type: 'server_error',
+    code: '42',
+    message: 'Error:  code ',
+    param: null,
+    event_id: ''
+  }
+}

@@ -37,7 +37,8 @@ npm install --legacy-peer-deps
 # Start development servers
 npm run dev          # Start Next.js development server
 npm run dev:webhook  # Start webhook server (requires ngrok static domain in package.json)
-npx inngest-cli@latest dev  # Start Inngest development server
+npx inngest-cli@latest dev 
+npm run dev:agent # Start Inngest development server
 ```
 
 ## Additional Commands

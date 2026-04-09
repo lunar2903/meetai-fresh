@@ -1,0 +1,39 @@
+[webhook connectOpenAi Success] 2026-04-02T03:16:55.421Z: Connected successfully to meeting 8U6_ycFKKIXXsNsoH9nQD
+[webhook session_started] 2026-04-02T03:16:55.571Z: meetingId: 8U6_ycFKKIXXsNsoH9nQD
+[webhook session_started] 2026-04-02T16:16:17.329Z: meetingId: u2LPAvGBZhRDL1bjdhp0K
+[webhook session_started] 2026-04-02T16:16:18.423Z: meetingId: u2LPAvGBZhRDL1bjdhp0K
+[webhook session_started] 2026-04-02T16:16:20.165Z: meetingId: u2LPAvGBZhRDL1bjdhp0K
+[webhook connectOpenAi Success] 2026-04-02T16:16:20.277Z: Connected successfully to meeting u2LPAvGBZhRDL1bjdhp0K
+[webhook session_started] 2026-04-02T16:16:21.674Z: meetingId: u2LPAvGBZhRDL1bjdhp0K
+[webhook session_started] 2026-04-02T16:16:23.182Z: meetingId: u2LPAvGBZhRDL1bjdhp0K
+[webhook session_started] 2026-04-02T16:59:16.610Z: meetingId: IUkn9gjJ7hTaNZmxgYK22
+[webhook session_started] 2026-04-02T16:59:17.859Z: meetingId: IUkn9gjJ7hTaNZmxgYK22
+[webhook session_started] 2026-04-02T16:59:19.593Z: meetingId: IUkn9gjJ7hTaNZmxgYK22
+[webhook connectOpenAi Success] 2026-04-02T16:59:19.632Z: agent-server responded: {"status":"connected"} for meeting IUkn9gjJ7hTaNZmxgYK22
+[webhook session_started] 2026-04-04T19:42:04.804Z: meetingId: YvQhnGFTWq0mG-ZzqM0vG
+[webhook session_started] 2026-04-04T19:42:05.993Z: meetingId: YvQhnGFTWq0mG-ZzqM0vG
+[webhook connectOpenAi Error] 2026-04-04T19:42:06.689Z: fetch failed
+[webhook connectOpenAi Error] 2026-04-04T19:42:06.848Z: fetch failed
+[webhook session_started] 2026-04-04T19:42:07.215Z: meetingId: YvQhnGFTWq0mG-ZzqM0vG
+[webhook connectOpenAi Error] 2026-04-04T19:42:07.906Z: fetch failed
+[webhook session_started] 2026-04-04T19:42:08.424Z: meetingId: YvQhnGFTWq0mG-ZzqM0vG
+[webhook connectOpenAi Error] 2026-04-04T19:42:09.150Z: fetch failed
+[webhook session_started] 2026-04-05T06:56:14.715Z: meetingId: wPavErY_WdDF9qodKylyI
+[webhook session_started] 2026-04-05T06:56:15.908Z: meetingId: wPavErY_WdDF9qodKylyI
+[webhook connectOpenAi Success] 2026-04-05T06:56:17.012Z: agent-server responded: {"status":"connected"} for meeting wPavErY_WdDF9qodKylyI
+[webhook session_started] 2026-04-05T07:03:07.505Z: meetingId: LF46iJjuyQIa7I9NumNe8
+[webhook session_started] 2026-04-05T07:03:08.763Z: meetingId: LF46iJjuyQIa7I9NumNe8
+[webhook connectOpenAi Success] 2026-04-05T07:03:10.410Z: agent-server responded: {"status":"connected"} for meeting LF46iJjuyQIa7I9NumNe8
+[webhook session_started] 2026-04-05T07:11:46.031Z: meetingId: 8lz-jmTtnRJctHedPokn9
+[webhook session_started] 2026-04-05T07:11:47.285Z: meetingId: 8lz-jmTtnRJctHedPokn9
+[webhook session_started] 2026-04-05T07:11:49.016Z: meetingId: 8lz-jmTtnRJctHedPokn9
+[webhook connectOpenAi Success] 2026-04-05T07:11:49.085Z: agent-server responded: {"status":"connected"} for meeting 8lz-jmTtnRJctHedPokn9
+[webhook session_started] 2026-04-05T08:52:18.030Z: meetingId: vopBq_15XxCb4RWmgSDOU
+[webhook session_started] 2026-04-05T08:52:19.240Z: meetingId: vopBq_15XxCb4RWmgSDOU
+[webhook connectOpenAi Success] 2026-04-05T08:52:24.196Z: agent-server responded: {"error":"RealtimeClient.connect() failed: {\"type\":\"error\",\"error\":{\"type\":\"server_error\",\"code\":\"42\",\"message\":\"Error:  code \",\"param\":null,\"event_id\":\"\"}}"} for meeting vopBq_15XxCb4RWmgSDOU
+[webhook session_started] 2026-04-05T09:15:58.994Z: meetingId: ehMjoCHfmxwZULNVUfLoK
+[webhook session_started] 2026-04-05T09:16:00.211Z: meetingId: ehMjoCHfmxwZULNVUfLoK
+[webhook session_started] 2026-04-05T09:16:01.985Z: meetingId: ehMjoCHfmxwZULNVUfLoK
+[webhook connectOpenAi Success] 2026-04-05T09:16:02.501Z: agent-server responded: {"error":"RealtimeClient.connect() failed: {\"type\":\"error\",\"error\":{\"type\":\"server_error\",\"code\":\"42\",\"message\":\"Error:  code \",\"param\":null,\"event_id\":\"\"}}"} for meeting ehMjoCHfmxwZULNVUfLoK
+[webhook session_started] 2026-04-05T09:16:03.318Z: meetingId: ehMjoCHfmxwZULNVUfLoK
+[webhook session_started] 2026-04-05T09:16:04.714Z: meetingId: ehMjoCHfmxwZULNVUfLoK

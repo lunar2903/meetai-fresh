@@ -1,0 +1,16 @@
+﻿Connect error: TypeError: Cannot read properties of null (reading 'on')
+    at realtimeClient.realtime.connect (file:///D:/Antigravity/meet-ai-fresh/test-stream-sdk.mjs:33:13)
+    at RealtimeClient.connect (file:///D:/Antigravity/meet-ai-fresh/node_modules/@openai/realtime-api-beta/lib/client.js:396:25)
+    at test (file:///D:/Antigravity/meet-ai-fresh/test-stream-sdk.mjs:38:26)
+    at file:///D:/Antigravity/meet-ai-fresh/test-stream-sdk.mjs:44:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:343:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:647:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+SERVER MSG: undefined {
+  StatusCode: 401,
+  code: 2,
+  details: [],
+  duration: '0',
+  message: 'VideoConnectAiAgent failed with error: "api_key not valid"',
+  more_info: 'https://getstream.io/chat/docs/api_errors_response'
+}

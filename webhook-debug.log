@@ -1,0 +1,1090 @@
+[webhook session_started] 2026-04-01T20:04:19.018Z: meetingId: vTwf1JRvF-cYiLTcPP_vG
+[webhook session_started] 2026-04-01T20:04:20.778Z: meetingId: vTwf1JRvF-cYiLTcPP_vG
+[webhook session_started] 2026-04-01T20:04:21.980Z: meetingId: vTwf1JRvF-cYiLTcPP_vG
+[webhook connectOpenAi Error] 2026-04-01T20:04:22.979Z: {
+  "type": "error",
+  "error": {
+    "type": "server_error",
+    "code": "42",
+    "message": "Error:  code ",
+    "param": null,
+    "event_id": ""
+  }
+}
+[webhook session_started] 2026-04-01T20:04:23.644Z: meetingId: vTwf1JRvF-cYiLTcPP_vG
+[webhook connectOpenAi Error] 2026-04-01T20:04:23.882Z: {
+  "type": "error",
+  "error": {
+    "type": "server_error",
+    "code": "42",
+    "message": "Error:  code ",
+    "param": null,
+    "event_id": ""
+  }
+}
+[webhook connectOpenAi Error] 2026-04-01T20:04:24.319Z: {
+  "type": "error",
+  "error": {
+    "type": "server_error",
+    "code": "42",
+    "message": "Error:  code ",
+    "param": null,
+    "event_id": ""
+  }
+}
+[webhook session_started] 2026-04-01T20:04:24.916Z: meetingId: vTwf1JRvF-cYiLTcPP_vG
+[webhook connectOpenAi Error] 2026-04-01T20:04:25.377Z: {
+  "type": "error",
+  "error": {
+    "type": "server_error",
+    "code": "42",
+    "message": "Error:  code ",
+    "param": null,
+    "event_id": ""
+  }
+}
+[webhook connectOpenAi Error] 2026-04-01T20:04:26.860Z: {
+  "type": "error",
+  "error": {
+    "type": "server_error",
+    "code": "42",
+    "message": "Error:  code ",
+    "param": null,
+    "event_id": ""
+  }
+}
+[webhook session_started] 2026-04-01T20:12:59.502Z: meetingId: 1bkGaJpUVsD2Dx5g02Cpr
+[webhook session_started] 2026-04-01T20:13:00.767Z: meetingId: 1bkGaJpUVsD2Dx5g02Cpr
+[webhook connectOpenAi Success] 2026-04-01T20:13:01.381Z: Connected successfully to meeting 1bkGaJpUVsD2Dx5g02Cpr
+[webhook connectOpenAi Success] 2026-04-01T20:13:02.140Z: Connected successfully to meeting 1bkGaJpUVsD2Dx5g02Cpr
+[webhook session_started] 2026-04-01T20:13:02.507Z: meetingId: 1bkGaJpUVsD2Dx5g02Cpr
+[webhook connectOpenAi Success] 2026-04-01T20:13:03.482Z: Connected successfully to meeting 1bkGaJpUVsD2Dx5g02Cpr
+[webhook session_started] 2026-04-01T20:19:42.468Z: meetingId: umWWXUIHjb3oCn6rDmt-8
+[webhook session_started] 2026-04-01T20:19:43.462Z: meetingId: umWWXUIHjb3oCn6rDmt-8
+[webhook session_started] 2026-04-01T20:19:45.244Z: meetingId: umWWXUIHjb3oCn6rDmt-8
+[webhook session_started] 2026-04-01T20:19:46.070Z: meetingId: umWWXUIHjb3oCn6rDmt-8
+[webhook session_started] 2026-04-01T20:19:47.603Z: meetingId: umWWXUIHjb3oCn6rDmt-8
+[webhook connectOpenAi Success] 2026-04-01T20:19:48.831Z: Connected successfully to meeting umWWXUIHjb3oCn6rDmt-8
+[webhook connectOpenAi Success] 2026-04-01T20:19:49.504Z: Connected successfully to meeting umWWXUIHjb3oCn6rDmt-8
+[webhook connectOpenAi Success] 2026-04-01T20:19:49.690Z: Connected successfully to meeting umWWXUIHjb3oCn6rDmt-8
+[webhook connectOpenAi Success] 2026-04-01T20:19:49.772Z: Connected successfully to meeting umWWXUIHjb3oCn6rDmt-8
+[webhook connectOpenAi Success] 2026-04-01T20:19:50.096Z: Connected successfully to meeting umWWXUIHjb3oCn6rDmt-8
+[webhook session_started] 2026-04-01T20:27:46.848Z: meetingId: _xhox1A5hWp_JZQS6aD5K
+[webhook session_started] 2026-04-01T20:27:48.037Z: meetingId: _xhox1A5hWp_JZQS6aD5K
+[webhook connectOpenAi Error] 2026-04-01T20:27:48.929Z: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+Error: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+    at BaseApi.sendRequest (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:182:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async CommonApi.updateUsers (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:2197:30)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/webhook/route.ts:114:13)
+    at async AppRouteRouteModule.do (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:41338)
+    at async doRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1915:28)
+    at async DevServer.renderPageComponent (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2440:32)
+    at async DevServer.pipeImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\next-server.js:305:17)
+    at async DevServer.handleRequestImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:899:17)
+    at async D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:371:20
+    at async Span.traceAsyncFn (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:368:24)
+    at async invokeRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:237:21)
+    at async handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:428:24)
+    at async requestHandlerImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:452:13)
+    at async Server.requestListener (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\start-server.js:158:13)
+[webhook connectOpenAi Error] 2026-04-01T20:27:49.579Z: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+Error: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+    at BaseApi.sendRequest (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:182:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async CommonApi.updateUsers (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:2197:30)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/webhook/route.ts:114:13)
+    at async AppRouteRouteModule.do (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:41338)
+    at async doRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1915:28)
+    at async DevServer.renderPageComponent (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2440:32)
+    at async DevServer.pipeImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\next-server.js:305:17)
+    at async DevServer.handleRequestImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:899:17)
+    at async D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:371:20
+    at async Span.traceAsyncFn (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:368:24)
+    at async invokeRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:237:21)
+    at async handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:428:24)
+    at async requestHandlerImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:452:13)
+    at async Server.requestListener (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\start-server.js:158:13)
+[webhook session_started] 2026-04-01T20:27:49.781Z: meetingId: _xhox1A5hWp_JZQS6aD5K
+[webhook connectOpenAi Error] 2026-04-01T20:27:50.800Z: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+Error: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+    at BaseApi.sendRequest (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:182:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async CommonApi.updateUsers (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:2197:30)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/webhook/route.ts:114:13)
+    at async AppRouteRouteModule.do (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:41338)
+    at async doRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1915:28)
+    at async DevServer.renderPageComponent (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2440:32)
+    at async DevServer.pipeImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\next-server.js:305:17)
+    at async DevServer.handleRequestImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:899:17)
+    at async D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:371:20
+    at async Span.traceAsyncFn (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:368:24)
+    at async invokeRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:237:21)
+    at async handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:428:24)
+    at async requestHandlerImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:452:13)
+    at async Server.requestListener (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\start-server.js:158:13)
+[webhook session_started] 2026-04-01T20:27:51.296Z: meetingId: _xhox1A5hWp_JZQS6aD5K
+[webhook connectOpenAi Error] 2026-04-01T20:27:52.311Z: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+Error: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+    at BaseApi.sendRequest (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:182:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async CommonApi.updateUsers (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:2197:30)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/webhook/route.ts:114:13)
+    at async AppRouteRouteModule.do (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:41338)
+    at async doRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1915:28)
+    at async DevServer.renderPageComponent (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2440:32)
+    at async DevServer.pipeImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\next-server.js:305:17)
+    at async DevServer.handleRequestImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:899:17)
+    at async D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:371:20
+    at async Span.traceAsyncFn (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:368:24)
+    at async invokeRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:237:21)
+    at async handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:428:24)
+    at async requestHandlerImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:452:13)
+    at async Server.requestListener (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\start-server.js:158:13)
+[webhook session_started] 2026-04-01T20:27:52.816Z: meetingId: _xhox1A5hWp_JZQS6aD5K
+[webhook connectOpenAi Error] 2026-04-01T20:27:54.585Z: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+Error: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+    at BaseApi.sendRequest (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:182:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async CommonApi.updateUsers (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:2197:30)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/webhook/route.ts:114:13)
+    at async AppRouteRouteModule.do (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:41338)
+    at async doRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1915:28)
+    at async DevServer.renderPageComponent (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2440:32)
+    at async DevServer.pipeImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\next-server.js:305:17)
+    at async DevServer.handleRequestImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:899:17)
+    at async D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:371:20
+    at async Span.traceAsyncFn (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:368:24)
+    at async invokeRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:237:21)
+    at async handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:428:24)
+    at async requestHandlerImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:452:13)
+    at async Server.requestListener (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\start-server.js:158:13)
+[webhook session_started] 2026-04-01T21:08:58.363Z: meetingId: TaUiuF5w8Odngm33Re0dw
+[webhook session_started] 2026-04-01T21:08:59.565Z: meetingId: TaUiuF5w8Odngm33Re0dw
+[webhook connectOpenAi Error] 2026-04-01T21:09:00.517Z: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+Error: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+    at BaseApi.sendRequest (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:182:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async CommonApi.updateUsers (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:2197:30)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/webhook/route.ts:114:13)
+    at async AppRouteRouteModule.do (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:41338)
+    at async doRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1915:28)
+    at async DevServer.renderPageComponent (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2440:32)
+    at async DevServer.pipeImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\next-server.js:305:17)
+    at async DevServer.handleRequestImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:899:17)
+    at async D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:371:20
+    at async Span.traceAsyncFn (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:368:24)
+    at async invokeRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:237:21)
+    at async handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:428:24)
+    at async requestHandlerImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:452:13)
+    at async Server.requestListener (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\start-server.js:158:13)
+[webhook session_started] 2026-04-01T21:09:01.026Z: meetingId: TaUiuF5w8Odngm33Re0dw
+[webhook connectOpenAi Error] 2026-04-01T21:09:01.915Z: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+Error: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+    at BaseApi.sendRequest (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:182:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async CommonApi.updateUsers (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:2197:30)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/webhook/route.ts:114:13)
+    at async AppRouteRouteModule.do (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:41338)
+    at async doRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1915:28)
+    at async DevServer.renderPageComponent (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2440:32)
+    at async DevServer.pipeImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\next-server.js:305:17)
+    at async DevServer.handleRequestImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:899:17)
+    at async D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:371:20
+    at async Span.traceAsyncFn (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:368:24)
+    at async invokeRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:237:21)
+    at async handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:428:24)
+    at async requestHandlerImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:452:13)
+    at async Server.requestListener (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\start-server.js:158:13)
+[webhook session_started] 2026-04-01T21:09:02.429Z: meetingId: TaUiuF5w8Odngm33Re0dw
+[webhook connectOpenAi Error] 2026-04-01T21:09:03.321Z: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+Error: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+    at BaseApi.sendRequest (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:182:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async CommonApi.updateUsers (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:2197:30)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/webhook/route.ts:114:13)
+    at async AppRouteRouteModule.do (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:41338)
+    at async doRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1915:28)
+    at async DevServer.renderPageComponent (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2440:32)
+    at async DevServer.pipeImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\next-server.js:305:17)
+    at async DevServer.handleRequestImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:899:17)
+    at async D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:371:20
+    at async Span.traceAsyncFn (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:368:24)
+    at async invokeRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:237:21)
+    at async handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:428:24)
+    at async requestHandlerImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:452:13)
+    at async Server.requestListener (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\start-server.js:158:13)
+[webhook session_started] 2026-04-01T21:11:28.227Z: meetingId: NPes_8N_g_hB6l9ZUWir9
+[webhook session_started] 2026-04-01T21:11:29.414Z: meetingId: NPes_8N_g_hB6l9ZUWir9
+[webhook connectOpenAi Error] 2026-04-01T21:11:30.285Z: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+Error: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+    at BaseApi.sendRequest (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:182:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async CommonApi.updateUsers (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:2197:30)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/webhook/route.ts:114:13)
+    at async AppRouteRouteModule.do (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:41338)
+    at async doRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1915:28)
+    at async DevServer.renderPageComponent (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2440:32)
+    at async DevServer.pipeImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\next-server.js:305:17)
+    at async DevServer.handleRequestImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:899:17)
+    at async D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:371:20
+    at async Span.traceAsyncFn (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:368:24)
+    at async invokeRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:237:21)
+    at async handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:428:24)
+    at async requestHandlerImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:452:13)
+    at async Server.requestListener (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\start-server.js:158:13)
+[webhook connectOpenAi Error] 2026-04-01T21:11:30.851Z: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+Error: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+    at BaseApi.sendRequest (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:182:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async CommonApi.updateUsers (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:2197:30)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/webhook/route.ts:114:13)
+    at async AppRouteRouteModule.do (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:41338)
+    at async doRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1915:28)
+    at async DevServer.renderPageComponent (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2440:32)
+    at async DevServer.pipeImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\next-server.js:305:17)
+    at async DevServer.handleRequestImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:899:17)
+    at async D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:371:20
+    at async Span.traceAsyncFn (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:368:24)
+    at async invokeRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:237:21)
+    at async handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:428:24)
+    at async requestHandlerImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:452:13)
+    at async Server.requestListener (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\start-server.js:158:13)
+[webhook session_started] 2026-04-01T21:11:31.160Z: meetingId: NPes_8N_g_hB6l9ZUWir9
+[webhook connectOpenAi Error] 2026-04-01T21:11:32.101Z: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+Error: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+    at BaseApi.sendRequest (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:182:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async CommonApi.updateUsers (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:2197:30)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/webhook/route.ts:114:13)
+    at async AppRouteRouteModule.do (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:41338)
+    at async doRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1915:28)
+    at async DevServer.renderPageComponent (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2440:32)
+    at async DevServer.pipeImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\next-server.js:305:17)
+    at async DevServer.handleRequestImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:899:17)
+    at async D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:371:20
+    at async Span.traceAsyncFn (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:368:24)
+    at async invokeRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:237:21)
+    at async handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:428:24)
+    at async requestHandlerImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:452:13)
+    at async Server.requestListener (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\start-server.js:158:13)
+[webhook session_started] 2026-04-01T21:11:32.629Z: meetingId: NPes_8N_g_hB6l9ZUWir9
+[webhook connectOpenAi Error] 2026-04-01T21:11:33.580Z: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+Error: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+    at BaseApi.sendRequest (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:182:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async CommonApi.updateUsers (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:2197:30)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/webhook/route.ts:114:13)
+    at async AppRouteRouteModule.do (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:41338)
+    at async doRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1915:28)
+    at async DevServer.renderPageComponent (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2440:32)
+    at async DevServer.pipeImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\next-server.js:305:17)
+    at async DevServer.handleRequestImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:899:17)
+    at async D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:371:20
+    at async Span.traceAsyncFn (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:368:24)
+    at async invokeRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:237:21)
+    at async handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:428:24)
+    at async requestHandlerImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:452:13)
+    at async Server.requestListener (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\start-server.js:158:13)
+[webhook session_started] 2026-04-01T21:11:34.090Z: meetingId: NPes_8N_g_hB6l9ZUWir9
+[webhook connectOpenAi Error] 2026-04-01T21:11:35.005Z: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+Error: Stream error code 4: UpdateUsers failed with error: "role "bot" provided but not defined"
+    at BaseApi.sendRequest (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:182:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async CommonApi.updateUsers (webpack-internal:///(rsc)/./node_modules/@stream-io/node-sdk/dist/index.es.mjs:2197:30)
+    at async POST (webpack-internal:///(rsc)/./src/app/api/webhook/route.ts:114:13)
+    at async AppRouteRouteModule.do (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:34112)
+    at async AppRouteRouteModule.handle (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\compiled\next-server\app-route.runtime.dev.js:26:41338)
+    at async doRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1513:42)
+    at async DevServer.renderToResponseWithComponentsImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1915:28)
+    at async DevServer.renderPageComponent (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2403:24)
+    at async DevServer.renderToResponseImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:2440:32)
+    at async DevServer.pipeImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:1007:25)
+    at async NextNodeServer.handleCatchallRenderRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\next-server.js:305:17)
+    at async DevServer.handleRequestImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\base-server.js:899:17)
+    at async D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:371:20
+    at async Span.traceAsyncFn (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\dev\next-dev-server.js:368:24)
+    at async invokeRender (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:237:21)
+    at async handleRequest (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:428:24)
+    at async requestHandlerImpl (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\router-server.js:452:13)
+    at async Server.requestListener (D:\Antigravity\meet-ai-fresh\node_modules\next\dist\server\lib\start-server.js:158:13)
+[webhook session_started] 2026-04-01T21:17:18.988Z: meetingId: 9q0HqkWK553rdQGF7K3GS
+[webhook session_started] 2026-04-01T21:17:20.216Z: meetingId: 9q0HqkWK553rdQGF7K3GS
+[webhook connectOpenAi Success] 2026-04-01T21:17:20.996Z: Connected successfully to meeting 9q0HqkWK553rdQGF7K3GS
+[webhook session_started] 2026-04-01T21:20:20.322Z: meetingId: c5dXsciC5E8ebpU2u-59_
+[webhook session_started] 2026-04-01T21:20:21.588Z: meetingId: c5dXsciC5E8ebpU2u-59_
+[webhook session_started] 2026-04-01T21:20:23.324Z: meetingId: c5dXsciC5E8ebpU2u-59_
+[webhook connectOpenAi Success] 2026-04-01T21:20:23.535Z: Connected successfully to meeting c5dXsciC5E8ebpU2u-59_
+[webhook session_started] 2026-04-01T21:31:03.152Z: meetingId: qNhhq73UhwWvuiNEpkWIJ
+[webhook session_started] 2026-04-01T21:31:04.433Z: meetingId: qNhhq73UhwWvuiNEpkWIJ
+[webhook connectOpenAi Success] 2026-04-01T21:31:06.128Z: Connected successfully to meeting qNhhq73UhwWvuiNEpkWIJ
+[webhook session_started] 2026-04-01T21:31:06.261Z: meetingId: qNhhq73UhwWvuiNEpkWIJ
+[webhook session_started] 2026-04-01T21:35:28.935Z: meetingId: Bh1dMNIkbryacc_uWC2ck
+[webhook session_started] 2026-04-01T21:35:30.195Z: meetingId: Bh1dMNIkbryacc_uWC2ck
+[webhook connectOpenAi Success] 2026-04-01T21:35:31.134Z: Connected successfully to meeting Bh1dMNIkbryacc_uWC2ck
+[webhook session_started] 2026-04-01T21:42:42.527Z: meetingId: U1PiPruKL7IAmUwWNLuuM
+[webhook session_started] 2026-04-01T21:42:43.785Z: meetingId: U1PiPruKL7IAmUwWNLuuM
+[webhook connectOpenAi Success] 2026-04-01T21:42:44.187Z: Connected successfully to meeting U1PiPruKL7IAmUwWNLuuM
+[webhook session_started] 2026-04-02T03:16:52.765Z: meetingId: 8U6_ycFKKIXXsNsoH9nQD
+[webhook session_started] 2026-04-02T03:16:53.850Z: meetingId: 8U6_ycFKKIXXsNsoH9nQD
+[webhook connectOpenAi Success] 2026-04-02T03:16:55.421Z: Connected successfully to meeting 8U6_ycFKKIXXsNsoH9nQD
+[webhook session_started] 2026-04-02T03:16:55.571Z: meetingId: 8U6_ycFKKIXXsNsoH9nQD
+[webhook session_started] 2026-04-02T16:16:17.329Z: meetingId: u2LPAvGBZhRDL1bjdhp0K
+[webhook session_started] 2026-04-02T16:16:18.423Z: meetingId: u2LPAvGBZhRDL1bjdhp0K
+[webhook session_started] 2026-04-02T16:16:20.165Z: meetingId: u2LPAvGBZhRDL1bjdhp0K
+[webhook connectOpenAi Success] 2026-04-02T16:16:20.277Z: Connected successfully to meeting u2LPAvGBZhRDL1bjdhp0K
+[webhook session_started] 2026-04-02T16:16:21.674Z: meetingId: u2LPAvGBZhRDL1bjdhp0K
+[webhook session_started] 2026-04-02T16:16:23.182Z: meetingId: u2LPAvGBZhRDL1bjdhp0K
+[webhook session_started] 2026-04-02T16:59:16.610Z: meetingId: IUkn9gjJ7hTaNZmxgYK22
+[webhook session_started] 2026-04-02T16:59:17.859Z: meetingId: IUkn9gjJ7hTaNZmxgYK22
+[webhook session_started] 2026-04-02T16:59:19.593Z: meetingId: IUkn9gjJ7hTaNZmxgYK22
+[webhook connectOpenAi Success] 2026-04-02T16:59:19.632Z: agent-server responded: {"status":"connected"} for meeting IUkn9gjJ7hTaNZmxgYK22
+[webhook session_started] 2026-04-04T19:42:04.804Z: meetingId: YvQhnGFTWq0mG-ZzqM0vG
+[webhook session_started] 2026-04-04T19:42:05.993Z: meetingId: YvQhnGFTWq0mG-ZzqM0vG
+[webhook connectOpenAi Error] 2026-04-04T19:42:06.689Z: fetch failed
+[webhook connectOpenAi Error] 2026-04-04T19:42:06.848Z: fetch failed
+[webhook session_started] 2026-04-04T19:42:07.215Z: meetingId: YvQhnGFTWq0mG-ZzqM0vG
+[webhook connectOpenAi Error] 2026-04-04T19:42:07.906Z: fetch failed
+[webhook session_started] 2026-04-04T19:42:08.424Z: meetingId: YvQhnGFTWq0mG-ZzqM0vG
+[webhook connectOpenAi Error] 2026-04-04T19:42:09.150Z: fetch failed
+[webhook session_started] 2026-04-05T06:56:14.715Z: meetingId: wPavErY_WdDF9qodKylyI
+[webhook session_started] 2026-04-05T06:56:15.908Z: meetingId: wPavErY_WdDF9qodKylyI
+[webhook connectOpenAi Success] 2026-04-05T06:56:17.012Z: agent-server responded: {"status":"connected"} for meeting wPavErY_WdDF9qodKylyI
+[webhook session_started] 2026-04-05T07:03:07.505Z: meetingId: LF46iJjuyQIa7I9NumNe8
+[webhook session_started] 2026-04-05T07:03:08.763Z: meetingId: LF46iJjuyQIa7I9NumNe8
+[webhook connectOpenAi Success] 2026-04-05T07:03:10.410Z: agent-server responded: {"status":"connected"} for meeting LF46iJjuyQIa7I9NumNe8
+[webhook session_started] 2026-04-05T07:11:46.031Z: meetingId: 8lz-jmTtnRJctHedPokn9
+[webhook session_started] 2026-04-05T07:11:47.285Z: meetingId: 8lz-jmTtnRJctHedPokn9
+[webhook session_started] 2026-04-05T07:11:49.016Z: meetingId: 8lz-jmTtnRJctHedPokn9
+[webhook connectOpenAi Success] 2026-04-05T07:11:49.085Z: agent-server responded: {"status":"connected"} for meeting 8lz-jmTtnRJctHedPokn9
+[webhook session_started] 2026-04-05T08:52:18.030Z: meetingId: vopBq_15XxCb4RWmgSDOU
+[webhook session_started] 2026-04-05T08:52:19.240Z: meetingId: vopBq_15XxCb4RWmgSDOU
+[webhook connectOpenAi Success] 2026-04-05T08:52:24.196Z: agent-server responded: {"error":"RealtimeClient.connect() failed: {\"type\":\"error\",\"error\":{\"type\":\"server_error\",\"code\":\"42\",\"message\":\"Error:  code \",\"param\":null,\"event_id\":\"\"}}"} for meeting vopBq_15XxCb4RWmgSDOU
+[webhook session_started] 2026-04-05T09:15:58.994Z: meetingId: ehMjoCHfmxwZULNVUfLoK
+[webhook session_started] 2026-04-05T09:16:00.211Z: meetingId: ehMjoCHfmxwZULNVUfLoK
+[webhook session_started] 2026-04-05T09:16:01.985Z: meetingId: ehMjoCHfmxwZULNVUfLoK
+[webhook connectOpenAi Success] 2026-04-05T09:16:02.501Z: agent-server responded: {"error":"RealtimeClient.connect() failed: {\"type\":\"error\",\"error\":{\"type\":\"server_error\",\"code\":\"42\",\"message\":\"Error:  code \",\"param\":null,\"event_id\":\"\"}}"} for meeting ehMjoCHfmxwZULNVUfLoK
+[webhook session_started] 2026-04-05T09:16:03.318Z: meetingId: ehMjoCHfmxwZULNVUfLoK
+[webhook session_started] 2026-04-05T09:16:04.714Z: meetingId: ehMjoCHfmxwZULNVUfLoK
+[webhook session_started] 2026-04-05T09:27:14.864Z: meetingId: Zs64XujAqHxX7fUnP8TrM
+[webhook session_started] 2026-04-05T09:27:16.112Z: meetingId: Zs64XujAqHxX7fUnP8TrM
+[webhook session_started] 2026-04-05T09:27:17.813Z: meetingId: Zs64XujAqHxX7fUnP8TrM
+[webhook connectOpenAi Success] 2026-04-05T09:27:18.834Z: agent-server responded: {"error":"RealtimeClient.connect() failed: {\"type\":\"error\",\"error\":{\"type\":\"server_error\",\"code\":\"42\",\"message\":\"Error:  code \",\"param\":null,\"event_id\":\"\"}}"} for meeting Zs64XujAqHxX7fUnP8TrM
+[webhook ALL EVENTS] 2026-04-05T09:48:00.953Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-05T09:48:01.525Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T09:48:15.232Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-05T09:48:15.236Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T09:48:15.237Z: meetingId: u-9oOSFj18aYh6T-NmuYO
+[webhook ALL EVENTS] 2026-04-05T09:48:15.545Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T09:48:15.751Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T09:48:16.494Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T09:48:16.495Z: meetingId: u-9oOSFj18aYh6T-NmuYO
+[webhook ALL EVENTS] 2026-04-05T09:48:16.666Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T09:48:17.828Z: Received event type: call.session_participant_joined
+[webhook connectOpenAi Success] 2026-04-05T09:48:18.970Z: agent-server responded: {"status":"connected"} for meeting u-9oOSFj18aYh6T-NmuYO
+[webhook ALL EVENTS] 2026-04-05T09:55:11.441Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T10:00:13.205Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T10:00:41.757Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-05T10:00:43.238Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-05T10:38:07.439Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-05T10:38:36.745Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-05T10:38:36.751Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T10:38:36.752Z: meetingId: -HBgAg5Xjm1P5TcArrE8e
+[webhook ALL EVENTS] 2026-04-05T10:38:37.016Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T10:38:37.184Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T10:38:37.922Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T10:38:37.924Z: meetingId: -HBgAg5Xjm1P5TcArrE8e
+[webhook ALL EVENTS] 2026-04-05T10:38:39.669Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T10:38:39.670Z: meetingId: -HBgAg5Xjm1P5TcArrE8e
+[webhook ALL EVENTS] 2026-04-05T10:38:39.702Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T10:38:40.808Z: Received event type: call.session_participant_joined
+[webhook connectOpenAi Success] 2026-04-05T10:38:41.922Z: agent-server responded: {"status":"connected"} for meeting -HBgAg5Xjm1P5TcArrE8e
+[webhook ALL EVENTS] 2026-04-05T10:42:14.818Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T10:46:29.192Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T10:46:29.193Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-05T10:46:29.630Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T10:47:07.992Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T10:47:07.994Z: meetingId: QyfQPbW4ob98GlMvOZAG-
+[webhook ALL EVENTS] 2026-04-05T10:47:08.010Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-05T10:47:08.332Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T10:47:08.508Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T10:47:09.261Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T10:47:09.262Z: meetingId: QyfQPbW4ob98GlMvOZAG-
+[webhook ALL EVENTS] 2026-04-05T10:47:10.499Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T10:47:11.016Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T10:47:11.017Z: meetingId: QyfQPbW4ob98GlMvOZAG-
+[webhook ALL EVENTS] 2026-04-05T10:47:11.596Z: Received event type: call.session_participant_joined
+[webhook connectOpenAi Success] 2026-04-05T10:47:12.161Z: agent-server responded: {"status":"connected"} for meeting QyfQPbW4ob98GlMvOZAG-
+[webhook ALL EVENTS] 2026-04-05T10:47:15.093Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T10:47:45.014Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-05T10:48:43.976Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-05T10:48:44.042Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T10:48:44.243Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T11:04:48.809Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T11:04:48.810Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-05T11:04:48.832Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T11:04:49.075Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-05T11:05:37.631Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T11:05:37.632Z: meetingId: D0DGCohFkQyLsrDEiriuB
+[webhook ALL EVENTS] 2026-04-05T11:05:37.639Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-05T11:05:37.788Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T11:05:38.003Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T11:05:38.736Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T11:05:38.737Z: meetingId: D0DGCohFkQyLsrDEiriuB
+[webhook ALL EVENTS] 2026-04-05T11:05:38.861Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T11:05:40.003Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-05T11:05:40.501Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T11:05:40.502Z: meetingId: D0DGCohFkQyLsrDEiriuB
+[webhook connectOpenAi Success] 2026-04-05T11:05:41.135Z: agent-server responded: {"status":"connected"} for meeting D0DGCohFkQyLsrDEiriuB
+[webhook ALL EVENTS] 2026-04-05T11:05:41.827Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T11:05:41.828Z: meetingId: D0DGCohFkQyLsrDEiriuB
+[webhook ALL EVENTS] 2026-04-05T11:05:43.489Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T11:05:43.490Z: meetingId: D0DGCohFkQyLsrDEiriuB
+[webhook ALL EVENTS] 2026-04-05T11:10:55.719Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T11:12:11.724Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-05T11:12:11.974Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T11:12:13.217Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-05T11:13:03.020Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-05T11:13:03.585Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T11:14:08.929Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T11:14:08.930Z: meetingId: kZKVQ3Bg-3IWUIb4NqBav
+[webhook ALL EVENTS] 2026-04-05T11:14:08.936Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-05T11:14:09.265Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T11:14:09.495Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T11:14:10.198Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T11:14:10.200Z: meetingId: kZKVQ3Bg-3IWUIb4NqBav
+[webhook ALL EVENTS] 2026-04-05T11:14:10.958Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T11:14:11.919Z: Received event type: call.session_participant_joined
+[webhook connectOpenAi Success] 2026-04-05T11:14:12.878Z: agent-server responded: {"status":"connected"} for meeting kZKVQ3Bg-3IWUIb4NqBav
+[webhook ALL EVENTS] 2026-04-05T11:16:14.791Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-05T11:16:14.799Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T11:16:15.015Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T14:32:52.092Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-05T14:32:52.094Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T14:32:52.307Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-05T14:33:28.595Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-05T14:33:28.601Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T14:33:28.602Z: meetingId: XyQcBCFnLiY6JbJ0WGMbe
+[webhook ALL EVENTS] 2026-04-05T14:33:28.870Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T14:33:29.077Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T14:33:29.780Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T14:33:29.782Z: meetingId: XyQcBCFnLiY6JbJ0WGMbe
+[webhook ALL EVENTS] 2026-04-05T14:33:31.182Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T14:33:31.617Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T14:33:31.618Z: meetingId: XyQcBCFnLiY6JbJ0WGMbe
+[webhook connectOpenAi Success] 2026-04-05T14:33:32.143Z: agent-server responded: {"error":"RealtimeClient.connect() failed: {\"type\":\"error\",\"error\":{\"type\":\"server_error\",\"code\":\"42\",\"message\":\"Error:  code \",\"param\":null,\"event_id\":\"\"}}"} for meeting XyQcBCFnLiY6JbJ0WGMbe
+[webhook ALL EVENTS] 2026-04-05T14:33:32.321Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-05T14:33:32.507Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T14:33:32.777Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T14:33:32.779Z: meetingId: XyQcBCFnLiY6JbJ0WGMbe
+[webhook ALL EVENTS] 2026-04-05T14:33:34.301Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T14:33:34.302Z: meetingId: XyQcBCFnLiY6JbJ0WGMbe
+[webhook ALL EVENTS] 2026-04-05T14:36:33.812Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-05T14:36:34.078Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T14:36:45.858Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-05T14:36:46.468Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T14:37:26.533Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-05T14:37:26.538Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T14:37:26.539Z: meetingId: CJGN7MlooRa_xU7u_Wjf-
+[webhook ALL EVENTS] 2026-04-05T14:37:26.902Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T14:37:27.109Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T14:37:27.791Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T14:37:27.792Z: meetingId: CJGN7MlooRa_xU7u_Wjf-
+[webhook ALL EVENTS] 2026-04-05T14:37:28.330Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T14:37:29.256Z: Received event type: call.session_participant_joined
+[webhook connectOpenAi Success] 2026-04-05T14:37:29.346Z: agent-server responded: {"error":"RealtimeClient.connect() failed: {\"type\":\"error\",\"error\":{\"type\":\"server_error\",\"code\":\"42\",\"message\":\"Error:  code \",\"param\":null,\"event_id\":\"\"}}"} for meeting CJGN7MlooRa_xU7u_Wjf-
+[webhook ALL EVENTS] 2026-04-05T14:37:29.687Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T14:44:49.854Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T14:44:49.856Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-05T14:44:50.472Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-05T14:45:00.302Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-05T14:45:01.620Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T14:45:23.283Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T14:45:23.284Z: meetingId: 4i8Kth2QyjWg2gsyjG10a
+[webhook ALL EVENTS] 2026-04-05T14:45:23.291Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-05T14:45:23.661Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T14:45:23.830Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T14:45:24.560Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T14:45:24.562Z: meetingId: 4i8Kth2QyjWg2gsyjG10a
+[webhook ALL EVENTS] 2026-04-05T14:45:25.502Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T14:45:26.271Z: Received event type: call.session_participant_joined
+[webhook connectOpenAi Success] 2026-04-05T14:45:26.342Z: agent-server responded: {"error":"RealtimeClient.connect() failed: {\"type\":\"error\",\"error\":{\"type\":\"server_error\",\"code\":\"42\",\"message\":\"Error:  code \",\"param\":null,\"event_id\":\"\"}}"} for meeting 4i8Kth2QyjWg2gsyjG10a
+[webhook ALL EVENTS] 2026-04-05T14:45:26.701Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T14:50:54.387Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T14:50:54.503Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-05T14:50:54.751Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T14:51:05.011Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-05T14:51:05.557Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T14:51:19.655Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T14:51:19.657Z: meetingId: 1x1x59fQHOUfi__p7Ao91
+[webhook ALL EVENTS] 2026-04-05T14:51:19.680Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-05T14:51:20.065Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T14:51:20.322Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T14:51:20.932Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T14:51:20.934Z: meetingId: 1x1x59fQHOUfi__p7Ao91
+[webhook ALL EVENTS] 2026-04-05T14:51:22.656Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T14:51:22.657Z: meetingId: 1x1x59fQHOUfi__p7Ao91
+[webhook ALL EVENTS] 2026-04-05T14:51:22.694Z: Received event type: user.updated
+[webhook connectOpenAi Success] 2026-04-05T14:51:23.550Z: agent-server responded: {"error":"RealtimeClient.connect() failed: {\"type\":\"error\",\"error\":{\"type\":\"server_error\",\"code\":\"42\",\"message\":\"Error:  code \",\"param\":null,\"event_id\":\"\"}}"} for meeting 1x1x59fQHOUfi__p7Ao91
+[webhook ALL EVENTS] 2026-04-05T14:51:23.724Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T14:51:23.734Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-05T14:52:14.627Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-05T14:52:14.851Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-06T14:36:05.805Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-06T14:36:05.808Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-06T14:36:05.835Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-06T14:37:06.251Z: Received event type: call.session_started
+[webhook session_started] 2026-04-06T14:37:06.252Z: meetingId: fD8oydJCMCfKj-TAAaco8
+[webhook ALL EVENTS] 2026-04-06T14:37:06.261Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-06T14:37:06.533Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-06T14:37:06.677Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-06T14:37:07.433Z: Received event type: call.session_started
+[webhook session_started] 2026-04-06T14:37:07.435Z: meetingId: fD8oydJCMCfKj-TAAaco8
+[webhook ALL EVENTS] 2026-04-06T14:37:07.983Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-06T14:37:08.826Z: Received event type: call.session_participant_joined
+[webhook connectOpenAi Success] 2026-04-06T14:37:08.918Z: agent-server responded: {"error":"RealtimeClient.connect() failed: {\"type\":\"error\",\"error\":{\"type\":\"server_error\",\"code\":\"42\",\"message\":\"Error:  code \",\"param\":null,\"event_id\":\"\"}}"} for meeting fD8oydJCMCfKj-TAAaco8
+[webhook ALL EVENTS] 2026-04-06T14:37:09.273Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-06T14:38:50.008Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-06T14:38:50.284Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T14:03:00.623Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T14:03:00.625Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-07T14:03:00.896Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T14:03:39.683Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T14:03:39.684Z: meetingId: yvGu67Id8w2aX2c7HZ4Km
+[webhook ALL EVENTS] 2026-04-07T14:03:39.689Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-07T14:03:40.060Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T14:03:40.426Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T14:03:40.917Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T14:03:40.919Z: meetingId: yvGu67Id8w2aX2c7HZ4Km
+[webhook ALL EVENTS] 2026-04-07T14:03:42.265Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T14:03:42.618Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T14:03:42.619Z: meetingId: yvGu67Id8w2aX2c7HZ4Km
+[webhook connectOpenAi Success] 2026-04-07T14:03:42.779Z: agent-server responded: {"status":"connected"} for meeting yvGu67Id8w2aX2c7HZ4Km
+[webhook ALL EVENTS] 2026-04-07T14:43:11.045Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T14:43:11.222Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-07T14:43:33.254Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-07T14:43:33.264Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T14:43:33.265Z: meetingId: Htlcfx0Bvde1DLJHKY5nY
+[webhook ALL EVENTS] 2026-04-07T14:43:33.581Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T14:43:33.771Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T14:43:34.469Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T14:43:34.470Z: meetingId: Htlcfx0Bvde1DLJHKY5nY
+[webhook ALL EVENTS] 2026-04-07T14:43:35.020Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T14:43:35.798Z: Received event type: call.session_participant_joined
+[webhook connectOpenAi Success] 2026-04-07T14:43:35.865Z: agent-server responded: {"error":"RealtimeClient.connect() failed: {\"type\":\"error\",\"error\":{\"type\":\"server_error\",\"code\":\"42\",\"message\":\"Error:  code \",\"param\":null,\"event_id\":\"\"}}"} for meeting Htlcfx0Bvde1DLJHKY5nY
+[webhook ALL EVENTS] 2026-04-07T14:43:36.231Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T14:43:45.083Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T14:43:45.345Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T14:59:54.165Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-07T14:59:55.376Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T15:00:08.613Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T15:00:08.614Z: meetingId: T3AO2QLMSqHw6Jm4qHKcF
+[webhook ALL EVENTS] 2026-04-07T15:00:08.617Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-07T15:00:08.979Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T15:00:09.151Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T15:00:09.885Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T15:00:09.886Z: meetingId: T3AO2QLMSqHw6Jm4qHKcF
+[webhook ALL EVENTS] 2026-04-07T15:00:11.189Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T15:00:11.616Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T15:00:11.617Z: meetingId: T3AO2QLMSqHw6Jm4qHKcF
+[webhook connectOpenAi Success] 2026-04-07T15:00:12.095Z: agent-server responded: {"error":"RealtimeClient.connect() failed: {\"type\":\"error\",\"error\":{\"type\":\"server_error\",\"code\":\"42\",\"message\":\"Error:  code \",\"param\":null,\"event_id\":\"\"}}"} for meeting T3AO2QLMSqHw6Jm4qHKcF
+[webhook ALL EVENTS] 2026-04-07T15:00:12.263Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-07T15:00:12.468Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T15:00:25.595Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T15:00:25.872Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T15:07:26.617Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T15:07:26.662Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-07T15:07:26.761Z: Received event type: call.session_started
+[webhook ALL EVENTS] 2026-04-07T15:07:26.785Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-07T15:07:26.972Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T15:07:57.093Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T15:08:06.406Z: Received event type: call.session_started
+[webhook ALL EVENTS] 2026-04-07T15:08:06.410Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-07T15:08:06.602Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T15:08:36.505Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T15:13:23.140Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-07T15:13:23.908Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T15:13:34.031Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-07T15:13:34.095Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T15:13:34.096Z: meetingId: oUhGXoos9xqqK_pjHjIgx
+[webhook ALL EVENTS] 2026-04-07T15:13:34.380Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T15:13:34.635Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T15:13:35.267Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T15:13:35.268Z: meetingId: oUhGXoos9xqqK_pjHjIgx
+[webhook ALL EVENTS] 2026-04-07T15:13:35.974Z: Received event type: user.updated
+[webhook connectOpenAi Success] 2026-04-07T15:13:36.585Z: agent-server responded: {"status":"connected"} for meeting oUhGXoos9xqqK_pjHjIgx
+[webhook ALL EVENTS] 2026-04-07T15:14:04.704Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T15:14:04.978Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T16:22:57.222Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T16:22:57.230Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-07T16:22:57.585Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T16:23:16.645Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T16:23:16.652Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T16:23:19.895Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-07T16:23:19.909Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T16:23:19.917Z: meetingId: CKA2KCnJXlAipWvK0iYHY
+[webhook ALL EVENTS] 2026-04-07T16:23:20.286Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T16:23:20.383Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T16:23:21.186Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T16:23:21.187Z: meetingId: CKA2KCnJXlAipWvK0iYHY
+[webhook ALL EVENTS] 2026-04-07T16:23:21.673Z: Received event type: user.updated
+[webhook connectOpenAi Success] 2026-04-07T16:23:22.168Z: agent-server responded: {"status":"connected"} for meeting CKA2KCnJXlAipWvK0iYHY
+[webhook ALL EVENTS] 2026-04-07T16:25:18.336Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T16:25:46.526Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T16:26:38.233Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-07T16:26:38.886Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T16:26:49.169Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T16:26:49.170Z: meetingId: prb5Eb0-Jb0c_ctgu5m2S
+[webhook ALL EVENTS] 2026-04-07T16:26:49.173Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-07T16:26:49.526Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T16:26:49.712Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T16:26:50.438Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T16:26:50.439Z: meetingId: prb5Eb0-Jb0c_ctgu5m2S
+[webhook ALL EVENTS] 2026-04-07T16:26:51.687Z: Received event type: user.updated
+[webhook connectOpenAi Success] 2026-04-07T16:26:52.180Z: agent-server responded: {"status":"connected"} for meeting prb5Eb0-Jb0c_ctgu5m2S
+[webhook ALL EVENTS] 2026-04-07T16:26:52.190Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T16:26:52.191Z: meetingId: prb5Eb0-Jb0c_ctgu5m2S
+[webhook ALL EVENTS] 2026-04-07T16:27:34.783Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T16:27:35.013Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T16:27:36.466Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T16:32:22.865Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-07T16:32:23.229Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T16:32:34.135Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-07T16:32:34.136Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T16:32:34.137Z: meetingId: Q1i2nqGXRcg_RZuOremI-
+[webhook ALL EVENTS] 2026-04-07T16:32:34.467Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T16:32:34.627Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T16:32:35.374Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T16:32:35.374Z: meetingId: Q1i2nqGXRcg_RZuOremI-
+[webhook ALL EVENTS] 2026-04-07T16:32:35.383Z: Received event type: user.updated
+[webhook connectOpenAi Success] 2026-04-07T16:32:35.796Z: agent-server responded: {"status":"connected"} for meeting Q1i2nqGXRcg_RZuOremI-
+[webhook ALL EVENTS] 2026-04-07T16:34:47.676Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T16:34:47.936Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T17:44:38.877Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T17:44:39.260Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T17:44:52.380Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-07T17:45:16.627Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T17:45:16.628Z: meetingId: Kk55geCqz3XXzGcofIPO2
+[webhook ALL EVENTS] 2026-04-07T17:45:16.631Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-07T17:45:16.983Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T17:45:17.214Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T17:45:17.903Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T17:45:17.904Z: meetingId: Kk55geCqz3XXzGcofIPO2
+[webhook ALL EVENTS] 2026-04-07T17:45:19.180Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T17:45:19.601Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T17:45:19.601Z: meetingId: Kk55geCqz3XXzGcofIPO2
+[webhook ALL EVENTS] 2026-04-07T17:45:20.202Z: Received event type: call.session_participant_joined
+[webhook connectOpenAi Success] 2026-04-07T17:45:21.280Z: agent-server responded: {"status":"connected"} for meeting Kk55geCqz3XXzGcofIPO2
+[webhook ALL EVENTS] 2026-04-07T17:50:41.875Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T17:50:41.935Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T17:50:42.140Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T17:50:43.390Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T17:55:12.012Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-07T17:55:12.028Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T17:55:32.754Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T17:55:32.755Z: meetingId: BzJt1X3HWmN52_xDOkayz
+[webhook ALL EVENTS] 2026-04-07T17:55:32.763Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-07T17:55:33.294Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T17:55:33.307Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T17:55:33.986Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T17:55:33.987Z: meetingId: BzJt1X3HWmN52_xDOkayz
+[webhook ALL EVENTS] 2026-04-07T17:55:34.410Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T17:55:35.268Z: Received event type: call.session_participant_joined
+[webhook connectOpenAi Success] 2026-04-07T17:55:36.685Z: agent-server responded: {"status":"connected"} for meeting BzJt1X3HWmN52_xDOkayz
+[webhook ALL EVENTS] 2026-04-07T17:57:11.221Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T17:57:11.222Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T17:57:11.410Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T17:57:12.403Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T18:01:09.911Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-07T18:01:10.336Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T18:01:33.315Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:01:33.315Z: meetingId: weOCRTjJX4jHfUA14uELG
+[webhook ALL EVENTS] 2026-04-07T18:01:33.319Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-07T18:01:33.659Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T18:01:33.887Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T18:01:34.548Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:01:34.548Z: meetingId: weOCRTjJX4jHfUA14uELG
+[webhook ALL EVENTS] 2026-04-07T18:01:36.191Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T18:01:36.287Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:01:36.287Z: meetingId: weOCRTjJX4jHfUA14uELG
+[webhook ALL EVENTS] 2026-04-07T18:01:37.221Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-07T18:01:37.551Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:01:37.552Z: meetingId: weOCRTjJX4jHfUA14uELG
+[webhook connectOpenAi Success] 2026-04-07T18:01:37.689Z: agent-server responded: {"status":"connected"} for meeting weOCRTjJX4jHfUA14uELG
+[webhook ALL EVENTS] 2026-04-07T18:01:39.300Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:01:39.301Z: meetingId: weOCRTjJX4jHfUA14uELG
+[webhook ALL EVENTS] 2026-04-07T18:01:59.200Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T18:02:20.211Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T18:02:20.275Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T18:02:20.496Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T18:07:29.893Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-07T18:07:30.028Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T18:07:53.290Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-07T18:07:53.296Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:07:53.296Z: meetingId: g5TO21d0Obb74IPYS4Jr2
+[webhook ALL EVENTS] 2026-04-07T18:07:53.709Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T18:07:53.932Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T18:07:54.533Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:07:54.534Z: meetingId: g5TO21d0Obb74IPYS4Jr2
+[webhook recording_start_error] 2026-04-07T18:07:54.948Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting g5TO21d0Obb74IPYS4Jr2
+[webhook recording_start_error] 2026-04-07T18:07:55.257Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting g5TO21d0Obb74IPYS4Jr2
+[webhook transcription_start] 2026-04-07T18:07:55.288Z: started for meeting g5TO21d0Obb74IPYS4Jr2
+[webhook transcription_start] 2026-04-07T18:07:55.568Z: started for meeting g5TO21d0Obb74IPYS4Jr2
+[webhook ALL EVENTS] 2026-04-07T18:07:56.099Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T18:07:56.277Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:07:56.277Z: meetingId: g5TO21d0Obb74IPYS4Jr2
+[webhook recording_start_error] 2026-04-07T18:07:57.010Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting g5TO21d0Obb74IPYS4Jr2
+[webhook ALL EVENTS] 2026-04-07T18:07:57.169Z: Received event type: call.session_participant_joined
+[webhook transcription_start] 2026-04-07T18:07:57.283Z: started for meeting g5TO21d0Obb74IPYS4Jr2
+[webhook ALL EVENTS] 2026-04-07T18:07:57.541Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:07:57.542Z: meetingId: g5TO21d0Obb74IPYS4Jr2
+[webhook recording_start_error] 2026-04-07T18:07:58.259Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting g5TO21d0Obb74IPYS4Jr2
+[webhook connectOpenAi Success] 2026-04-07T18:07:58.299Z: agent-server responded: {"status":"connected"} for meeting g5TO21d0Obb74IPYS4Jr2
+[webhook transcription_start] 2026-04-07T18:07:58.529Z: started for meeting g5TO21d0Obb74IPYS4Jr2
+[webhook ALL EVENTS] 2026-04-07T18:08:38.023Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T18:08:39.352Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T18:08:39.354Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T18:08:39.592Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T18:08:39.812Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T18:18:41.666Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T18:18:41.800Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-07T18:19:03.740Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:19:03.741Z: meetingId: ErMWhrxNgpxLszsmhID0Z
+[webhook ALL EVENTS] 2026-04-07T18:19:03.745Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-07T18:19:04.106Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T18:19:04.380Z: Received event type: user.updated
+[webhook recording_start_error] 2026-04-07T18:19:04.978Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting ErMWhrxNgpxLszsmhID0Z
+[webhook ALL EVENTS] 2026-04-07T18:19:05.031Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:19:05.032Z: meetingId: ErMWhrxNgpxLszsmhID0Z
+[webhook transcription_start] 2026-04-07T18:19:05.317Z: started for meeting ErMWhrxNgpxLszsmhID0Z
+[webhook recording_start_error] 2026-04-07T18:19:05.771Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting ErMWhrxNgpxLszsmhID0Z
+[webhook transcription_start] 2026-04-07T18:19:06.048Z: started for meeting ErMWhrxNgpxLszsmhID0Z
+[webhook ALL EVENTS] 2026-04-07T18:19:06.172Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T18:19:06.732Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:19:06.733Z: meetingId: ErMWhrxNgpxLszsmhID0Z
+[webhook ALL EVENTS] 2026-04-07T18:19:07.263Z: Received event type: call.session_participant_joined
+[webhook recording_start_error] 2026-04-07T18:19:07.464Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting ErMWhrxNgpxLszsmhID0Z
+[webhook transcription_start] 2026-04-07T18:19:07.740Z: started for meeting ErMWhrxNgpxLszsmhID0Z
+[webhook ALL EVENTS] 2026-04-07T18:19:07.986Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:19:07.987Z: meetingId: ErMWhrxNgpxLszsmhID0Z
+[webhook recording_start_error] 2026-04-07T18:19:09.470Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting ErMWhrxNgpxLszsmhID0Z
+[webhook ALL EVENTS] 2026-04-07T18:19:09.729Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:19:09.730Z: meetingId: ErMWhrxNgpxLszsmhID0Z
+[webhook transcription_start] 2026-04-07T18:19:09.749Z: started for meeting ErMWhrxNgpxLszsmhID0Z
+[webhook recording_start_error] 2026-04-07T18:19:10.918Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting ErMWhrxNgpxLszsmhID0Z
+[webhook transcription_start] 2026-04-07T18:19:11.193Z: started for meeting ErMWhrxNgpxLszsmhID0Z
+[webhook connectOpenAi Success] 2026-04-07T18:19:12.123Z: agent-server responded: {"status":"connected"} for meeting ErMWhrxNgpxLszsmhID0Z
+[webhook ALL EVENTS] 2026-04-07T18:19:12.343Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T18:25:15.108Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T18:25:15.399Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T18:29:12.792Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-07T18:29:12.793Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T18:29:12.922Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-07T18:29:37.178Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-07T18:29:37.184Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:29:37.185Z: meetingId: ulXIZijU00z_rDE4gP2xz
+[webhook ALL EVENTS] 2026-04-07T18:29:37.555Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T18:29:37.730Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T18:29:38.477Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:29:38.478Z: meetingId: ulXIZijU00z_rDE4gP2xz
+[webhook recording_start_error] 2026-04-07T18:29:39.188Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting ulXIZijU00z_rDE4gP2xz
+[webhook recording_start_error] 2026-04-07T18:29:39.442Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting ulXIZijU00z_rDE4gP2xz
+[webhook transcription_start] 2026-04-07T18:29:39.620Z: started for meeting ulXIZijU00z_rDE4gP2xz
+[webhook transcription_start] 2026-04-07T18:29:39.748Z: started for meeting ulXIZijU00z_rDE4gP2xz
+[webhook ALL EVENTS] 2026-04-07T18:29:40.186Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:29:40.187Z: meetingId: ulXIZijU00z_rDE4gP2xz
+[webhook ALL EVENTS] 2026-04-07T18:29:40.565Z: Received event type: user.updated
+[webhook recording_start_error] 2026-04-07T18:29:40.977Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting ulXIZijU00z_rDE4gP2xz
+[webhook transcription_start] 2026-04-07T18:29:41.246Z: started for meeting ulXIZijU00z_rDE4gP2xz
+[webhook ALL EVENTS] 2026-04-07T18:29:41.673Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:29:41.674Z: meetingId: ulXIZijU00z_rDE4gP2xz
+[webhook ALL EVENTS] 2026-04-07T18:29:41.701Z: Received event type: call.session_participant_joined
+[webhook recording_start_error] 2026-04-07T18:29:42.463Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting ulXIZijU00z_rDE4gP2xz
+[webhook transcription_start] 2026-04-07T18:29:42.742Z: started for meeting ulXIZijU00z_rDE4gP2xz
+[webhook connectOpenAi Success] 2026-04-07T18:29:42.900Z: agent-server responded: {"status":"connected"} for meeting ulXIZijU00z_rDE4gP2xz
+[webhook ALL EVENTS] 2026-04-07T18:29:43.045Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:29:43.045Z: meetingId: ulXIZijU00z_rDE4gP2xz
+[webhook recording_start_error] 2026-04-07T18:29:43.860Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting ulXIZijU00z_rDE4gP2xz
+[webhook transcription_start] 2026-04-07T18:29:44.146Z: started for meeting ulXIZijU00z_rDE4gP2xz
+[webhook ALL EVENTS] 2026-04-07T18:34:14.189Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T18:34:16.223Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T18:34:16.227Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T18:43:27.222Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T18:43:27.223Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-07T18:43:27.518Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-07T18:43:51.846Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-07T18:43:51.850Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:43:51.851Z: meetingId: J4kGAVU5chBDusjktqTcc
+[webhook ALL EVENTS] 2026-04-07T18:43:52.224Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T18:43:52.480Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T18:43:53.083Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:43:53.083Z: meetingId: J4kGAVU5chBDusjktqTcc
+[webhook recording_start_error] 2026-04-07T18:43:53.132Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting J4kGAVU5chBDusjktqTcc
+[webhook transcription_start] 2026-04-07T18:43:53.475Z: started for meeting J4kGAVU5chBDusjktqTcc
+[webhook recording_start_error] 2026-04-07T18:43:53.836Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting J4kGAVU5chBDusjktqTcc
+[webhook transcription_start] 2026-04-07T18:43:54.134Z: started for meeting J4kGAVU5chBDusjktqTcc
+[webhook ALL EVENTS] 2026-04-07T18:43:54.317Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T18:43:54.840Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:43:54.840Z: meetingId: J4kGAVU5chBDusjktqTcc
+[webhook recording_start_error] 2026-04-07T18:43:55.599Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting J4kGAVU5chBDusjktqTcc
+[webhook ALL EVENTS] 2026-04-07T18:43:55.780Z: Received event type: call.session_participant_joined
+[webhook transcription_start] 2026-04-07T18:43:55.877Z: started for meeting J4kGAVU5chBDusjktqTcc
+[webhook ALL EVENTS] 2026-04-07T18:43:56.094Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:43:56.094Z: meetingId: J4kGAVU5chBDusjktqTcc
+[webhook connectOpenAi Success] 2026-04-07T18:43:56.851Z: agent-server responded: {"status":"connected"} for meeting J4kGAVU5chBDusjktqTcc
+[webhook recording_start_error] 2026-04-07T18:43:56.874Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting J4kGAVU5chBDusjktqTcc
+[webhook transcription_start] 2026-04-07T18:43:57.141Z: started for meeting J4kGAVU5chBDusjktqTcc
+[webhook ALL EVENTS] 2026-04-07T18:43:57.822Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T18:43:57.823Z: meetingId: J4kGAVU5chBDusjktqTcc
+[webhook recording_start_error] 2026-04-07T18:43:58.550Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting J4kGAVU5chBDusjktqTcc
+[webhook transcription_start] 2026-04-07T18:43:59.149Z: started for meeting J4kGAVU5chBDusjktqTcc
+[webhook ALL EVENTS] 2026-04-07T18:46:04.086Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T18:46:04.087Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T18:46:04.088Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T18:46:04.255Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T18:46:04.256Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T18:46:04.449Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T19:03:16.409Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T19:03:16.410Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T19:03:16.420Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T19:03:16.617Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T19:08:44.221Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T19:10:22.131Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T19:12:40.299Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-07T19:12:40.878Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T19:12:54.149Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T19:12:57.685Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T19:12:57.686Z: meetingId: 37Csj8wnzfJgbZ3z_RDrZ
+[webhook ALL EVENTS] 2026-04-07T19:12:57.690Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-07T19:12:58.056Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T19:12:58.419Z: Received event type: user.updated
+[webhook recording_start_error] 2026-04-07T19:12:58.902Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting 37Csj8wnzfJgbZ3z_RDrZ
+[webhook ALL EVENTS] 2026-04-07T19:12:58.954Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T19:12:58.954Z: meetingId: 37Csj8wnzfJgbZ3z_RDrZ
+[webhook transcription_start] 2026-04-07T19:12:59.245Z: started for meeting 37Csj8wnzfJgbZ3z_RDrZ
+[webhook recording_start_error] 2026-04-07T19:12:59.690Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting 37Csj8wnzfJgbZ3z_RDrZ
+[webhook transcription_start] 2026-04-07T19:12:59.961Z: started for meeting 37Csj8wnzfJgbZ3z_RDrZ
+[webhook ALL EVENTS] 2026-04-07T19:13:00.047Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T19:13:00.752Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T19:13:00.753Z: meetingId: 37Csj8wnzfJgbZ3z_RDrZ
+[webhook ALL EVENTS] 2026-04-07T19:13:01.342Z: Received event type: call.session_participant_joined
+[webhook recording_start_error] 2026-04-07T19:13:01.845Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting 37Csj8wnzfJgbZ3z_RDrZ
+[webhook transcription_start] 2026-04-07T19:13:02.320Z: started for meeting 37Csj8wnzfJgbZ3z_RDrZ
+[webhook connectOpenAi Success] 2026-04-07T19:13:02.366Z: agent-server responded: {"status":"connected"} for meeting 37Csj8wnzfJgbZ3z_RDrZ
+[webhook ALL EVENTS] 2026-04-07T19:13:02.391Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T19:13:02.392Z: meetingId: 37Csj8wnzfJgbZ3z_RDrZ
+[webhook recording_start_error] 2026-04-07T19:13:03.259Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting 37Csj8wnzfJgbZ3z_RDrZ
+[webhook transcription_start] 2026-04-07T19:13:03.675Z: started for meeting 37Csj8wnzfJgbZ3z_RDrZ
+[webhook ALL EVENTS] 2026-04-07T19:13:04.002Z: Received event type: call.session_started
+[webhook session_started] 2026-04-07T19:13:04.003Z: meetingId: 37Csj8wnzfJgbZ3z_RDrZ
+[webhook recording_start_error] 2026-04-07T19:13:05.326Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting 37Csj8wnzfJgbZ3z_RDrZ
+[webhook transcription_start] 2026-04-07T19:13:05.704Z: started for meeting 37Csj8wnzfJgbZ3z_RDrZ
+[webhook ALL EVENTS] 2026-04-07T19:15:21.859Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-07T19:15:21.872Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T19:15:22.078Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-07T19:17:13.540Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T19:17:13.903Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T19:17:14.217Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-07T19:17:36.812Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T04:12:43.819Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-08T04:13:32.957Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T04:13:42.816Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-08T04:13:42.817Z: Received event type: call.session_started
+[webhook session_started] 2026-04-08T04:13:42.818Z: meetingId: JA1LOnDn_xDbamw7g37I-
+[webhook ALL EVENTS] 2026-04-08T04:13:43.129Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T04:13:43.325Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T04:13:44.061Z: Received event type: call.session_started
+[webhook session_started] 2026-04-08T04:13:44.062Z: meetingId: JA1LOnDn_xDbamw7g37I-
+[webhook recording_start_error] 2026-04-08T04:13:44.545Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting JA1LOnDn_xDbamw7g37I-
+[webhook recording_start_error] 2026-04-08T04:13:44.815Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting JA1LOnDn_xDbamw7g37I-
+[webhook transcription_start] 2026-04-08T04:13:44.855Z: started for meeting JA1LOnDn_xDbamw7g37I-
+[webhook transcription_start] 2026-04-08T04:13:45.090Z: started for meeting JA1LOnDn_xDbamw7g37I-
+[webhook ALL EVENTS] 2026-04-08T04:13:45.677Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T04:13:45.795Z: Received event type: call.session_started
+[webhook session_started] 2026-04-08T04:13:45.796Z: meetingId: JA1LOnDn_xDbamw7g37I-
+[webhook connectOpenAi Success] 2026-04-08T04:13:46.501Z: agent-server responded: {"status":"connected"} for meeting JA1LOnDn_xDbamw7g37I-
+[webhook recording_start_error] 2026-04-08T04:13:46.506Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting JA1LOnDn_xDbamw7g37I-
+[webhook transcription_start] 2026-04-08T04:13:46.783Z: started for meeting JA1LOnDn_xDbamw7g37I-
+[webhook ALL EVENTS] 2026-04-08T04:13:47.309Z: Received event type: call.session_started
+[webhook session_started] 2026-04-08T04:13:47.309Z: meetingId: JA1LOnDn_xDbamw7g37I-
+[webhook recording_start_error] 2026-04-08T04:13:48.007Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting JA1LOnDn_xDbamw7g37I-
+[webhook transcription_start] 2026-04-08T04:13:48.291Z: started for meeting JA1LOnDn_xDbamw7g37I-
+[webhook ALL EVENTS] 2026-04-08T04:13:48.827Z: Received event type: call.session_started
+[webhook session_started] 2026-04-08T04:13:48.828Z: meetingId: JA1LOnDn_xDbamw7g37I-
+[webhook recording_start_error] 2026-04-08T04:13:49.523Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting JA1LOnDn_xDbamw7g37I-
+[webhook transcription_start] 2026-04-08T04:13:49.795Z: started for meeting JA1LOnDn_xDbamw7g37I-
+[webhook ALL EVENTS] 2026-04-08T04:14:30.851Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-08T04:14:31.162Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-08T04:25:01.532Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-08T04:25:01.883Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-08T04:25:24.718Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-08T04:25:24.722Z: Received event type: call.session_started
+[webhook session_started] 2026-04-08T04:25:24.723Z: meetingId: rT0Dh5kofyAI1a81KLBAl
+[webhook ALL EVENTS] 2026-04-08T04:25:25.042Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T04:25:25.272Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T04:25:25.980Z: Received event type: call.session_started
+[webhook session_started] 2026-04-08T04:25:25.980Z: meetingId: rT0Dh5kofyAI1a81KLBAl
+[webhook recording_start_error] 2026-04-08T04:25:26.378Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting rT0Dh5kofyAI1a81KLBAl
+[webhook transcription_start] 2026-04-08T04:25:26.726Z: started for meeting rT0Dh5kofyAI1a81KLBAl
+[webhook recording_start_error] 2026-04-08T04:25:26.801Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting rT0Dh5kofyAI1a81KLBAl
+[webhook transcription_start] 2026-04-08T04:25:27.083Z: started for meeting rT0Dh5kofyAI1a81KLBAl
+[webhook ALL EVENTS] 2026-04-08T04:25:27.545Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T04:25:27.694Z: Received event type: call.session_started
+[webhook session_started] 2026-04-08T04:25:27.695Z: meetingId: rT0Dh5kofyAI1a81KLBAl
+[webhook recording_start_error] 2026-04-08T04:25:28.407Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting rT0Dh5kofyAI1a81KLBAl
+[webhook ALL EVENTS] 2026-04-08T04:25:28.608Z: Received event type: call.session_participant_joined
+[webhook transcription_start] 2026-04-08T04:25:28.685Z: started for meeting rT0Dh5kofyAI1a81KLBAl
+[webhook ALL EVENTS] 2026-04-08T04:25:28.977Z: Received event type: call.session_started
+[webhook session_started] 2026-04-08T04:25:28.977Z: meetingId: rT0Dh5kofyAI1a81KLBAl
+[webhook recording_start_error] 2026-04-08T04:25:29.678Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting rT0Dh5kofyAI1a81KLBAl
+[webhook transcription_start] 2026-04-08T04:25:29.949Z: started for meeting rT0Dh5kofyAI1a81KLBAl
+[webhook connectOpenAi Success] 2026-04-08T04:25:29.985Z: agent-server responded: {"status":"connected"} for meeting rT0Dh5kofyAI1a81KLBAl
+[webhook ALL EVENTS] 2026-04-08T04:26:54.508Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-08T04:26:54.514Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-08T04:26:54.801Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-08T04:28:10.406Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T04:28:10.973Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T04:28:11.378Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T05:57:35.317Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-08T05:57:35.320Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T05:57:35.540Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-08T05:57:56.127Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T05:58:05.659Z: Received event type: call.session_started
+[webhook session_started] 2026-04-08T05:58:05.660Z: meetingId: ID7nOUYQOGYYrUIjxwZEn
+[webhook ALL EVENTS] 2026-04-08T05:58:05.664Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-08T05:58:05.715Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T05:58:05.883Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T05:58:06.617Z: Received event type: call.session_started
+[webhook session_started] 2026-04-08T05:58:06.618Z: meetingId: ID7nOUYQOGYYrUIjxwZEn
+[webhook ALL EVENTS] 2026-04-08T05:58:07.189Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T05:58:07.373Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T05:58:08.360Z: Received event type: call.session_started
+[webhook session_started] 2026-04-08T05:58:08.361Z: meetingId: ID7nOUYQOGYYrUIjxwZEn
+[webhook ALL EVENTS] 2026-04-08T05:58:08.747Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T05:58:08.958Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T05:58:09.867Z: Received event type: call.session_started
+[webhook session_started] 2026-04-08T05:58:09.868Z: meetingId: ID7nOUYQOGYYrUIjxwZEn
+[webhook recording_start_error] 2026-04-08T05:58:10.897Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting ID7nOUYQOGYYrUIjxwZEn
+[webhook recording_start_error] 2026-04-08T05:58:10.909Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting ID7nOUYQOGYYrUIjxwZEn
+[webhook transcription_start] 2026-04-08T05:58:11.322Z: started for meeting ID7nOUYQOGYYrUIjxwZEn
+[webhook ALL EVENTS] 2026-04-08T05:58:11.400Z: Received event type: call.session_started
+[webhook session_started] 2026-04-08T05:58:11.401Z: meetingId: ID7nOUYQOGYYrUIjxwZEn
+[webhook recording_start_error] 2026-04-08T05:58:11.426Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting ID7nOUYQOGYYrUIjxwZEn
+[webhook recording_start_error] 2026-04-08T05:58:11.456Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting ID7nOUYQOGYYrUIjxwZEn
+[webhook transcription_start] 2026-04-08T05:58:11.791Z: started for meeting ID7nOUYQOGYYrUIjxwZEn
+[webhook transcription_start] 2026-04-08T05:58:11.842Z: started for meeting ID7nOUYQOGYYrUIjxwZEn
+[webhook transcription_start] 2026-04-08T05:58:11.880Z: started for meeting ID7nOUYQOGYYrUIjxwZEn
+[webhook recording_start_error] 2026-04-08T05:58:12.472Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting ID7nOUYQOGYYrUIjxwZEn
+[webhook ALL EVENTS] 2026-04-08T05:58:12.636Z: Received event type: user.updated
+[webhook transcription_start] 2026-04-08T05:58:12.919Z: started for meeting ID7nOUYQOGYYrUIjxwZEn
+[webhook ALL EVENTS] 2026-04-08T05:58:14.790Z: Received event type: call.session_participant_joined
+[webhook connectOpenAi Success] 2026-04-08T05:58:16.047Z: agent-server responded: {"status":"connected"} for meeting ID7nOUYQOGYYrUIjxwZEn
+[webhook ALL EVENTS] 2026-04-08T06:01:37.488Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-08T06:01:37.496Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-08T06:01:37.726Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-08T06:01:38.989Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-08T06:03:16.748Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T06:03:17.339Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T06:03:17.851Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T06:03:51.294Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T06:22:46.356Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T06:22:46.774Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T06:22:46.796Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T08:18:11.362Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T08:18:11.424Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T08:18:40.247Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T08:18:50.026Z: Received event type: call.session_started
+[webhook session_started] 2026-04-08T08:18:50.028Z: meetingId: O4nrfHD6dfbDXZ-YOBBI3
+[webhook ALL EVENTS] 2026-04-08T08:18:50.040Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-08T08:18:50.354Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T08:18:50.546Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T08:18:51.311Z: Received event type: call.session_started
+[webhook session_started] 2026-04-08T08:18:51.313Z: meetingId: O4nrfHD6dfbDXZ-YOBBI3
+[webhook recording_start_error] 2026-04-08T08:18:51.978Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting O4nrfHD6dfbDXZ-YOBBI3
+[webhook transcription_start] 2026-04-08T08:18:52.332Z: started for meeting O4nrfHD6dfbDXZ-YOBBI3
+[webhook recording_start_error] 2026-04-08T08:18:52.657Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting O4nrfHD6dfbDXZ-YOBBI3
+[webhook ALL EVENTS] 2026-04-08T08:18:53.018Z: Received event type: call.session_started
+[webhook session_started] 2026-04-08T08:18:53.021Z: meetingId: O4nrfHD6dfbDXZ-YOBBI3
+[webhook transcription_start] 2026-04-08T08:18:53.032Z: started for meeting O4nrfHD6dfbDXZ-YOBBI3
+[webhook ALL EVENTS] 2026-04-08T08:18:53.456Z: Received event type: user.updated
+[webhook recording_start_error] 2026-04-08T08:18:53.875Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting O4nrfHD6dfbDXZ-YOBBI3
+[webhook transcription_start] 2026-04-08T08:18:54.443Z: started for meeting O4nrfHD6dfbDXZ-YOBBI3
+[webhook ALL EVENTS] 2026-04-08T08:18:54.565Z: Received event type: call.session_started
+[webhook session_started] 2026-04-08T08:18:54.566Z: meetingId: O4nrfHD6dfbDXZ-YOBBI3
+[webhook ALL EVENTS] 2026-04-08T08:18:55.779Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-08T08:18:56.045Z: Received event type: call.session_started
+[webhook session_started] 2026-04-08T08:18:56.046Z: meetingId: O4nrfHD6dfbDXZ-YOBBI3
+[webhook recording_start_error] 2026-04-08T08:18:57.032Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting O4nrfHD6dfbDXZ-YOBBI3
+[webhook connectOpenAi Success] 2026-04-08T08:18:57.140Z: agent-server responded: {"status":"connected"} for meeting O4nrfHD6dfbDXZ-YOBBI3
+[webhook transcription_start] 2026-04-08T08:18:57.429Z: started for meeting O4nrfHD6dfbDXZ-YOBBI3
+[webhook recording_start_error] 2026-04-08T08:18:57.658Z: Stream error code 4: StartRecording failed with error: "call is already being recorded" for meeting O4nrfHD6dfbDXZ-YOBBI3
+[webhook transcription_start] 2026-04-08T08:18:58.641Z: started for meeting O4nrfHD6dfbDXZ-YOBBI3
+[webhook ALL EVENTS] 2026-04-08T08:21:59.436Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-08T08:21:59.448Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-08T08:21:59.590Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-08T08:22:00.831Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-08T08:23:38.615Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T08:23:38.868Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T08:23:39.342Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-08T08:24:01.730Z: Received event type: user.updated

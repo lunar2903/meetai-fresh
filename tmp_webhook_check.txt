@@ -1,0 +1,29 @@
+[webhook ALL EVENTS] 2026-04-05T11:14:09.495Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T11:14:10.198Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T11:14:10.200Z: meetingId: kZKVQ3Bg-3IWUIb4NqBav
+[webhook ALL EVENTS] 2026-04-05T11:14:10.958Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T11:14:11.919Z: Received event type: call.session_participant_joined
+[webhook connectOpenAi Success] 2026-04-05T11:14:12.878Z: agent-server responded: {"status":"connected"} for meeting kZKVQ3Bg-3IWUIb4NqBav
+[webhook ALL EVENTS] 2026-04-05T11:16:14.791Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-05T11:16:14.799Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T11:16:15.015Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T14:32:52.092Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-05T14:32:52.094Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T14:32:52.307Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-05T14:33:28.595Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-05T14:33:28.601Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T14:33:28.602Z: meetingId: XyQcBCFnLiY6JbJ0WGMbe
+[webhook ALL EVENTS] 2026-04-05T14:33:28.870Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T14:33:29.077Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T14:33:29.780Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T14:33:29.782Z: meetingId: XyQcBCFnLiY6JbJ0WGMbe
+[webhook ALL EVENTS] 2026-04-05T14:33:31.182Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T14:33:31.617Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T14:33:31.618Z: meetingId: XyQcBCFnLiY6JbJ0WGMbe
+[webhook connectOpenAi Success] 2026-04-05T14:33:32.143Z: agent-server responded: {"error":"RealtimeClient.connect() failed: {\"type\":\"error\",\"error\":{\"type\":\"server_error\",\"code\":\"42\",\"message\":\"Error:  code \",\"param\":null,\"event_id\":\"\"}}"} for meeting XyQcBCFnLiY6JbJ0WGMbe
+[webhook ALL EVENTS] 2026-04-05T14:33:32.321Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-05T14:33:32.507Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T14:33:32.777Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T14:33:32.779Z: meetingId: XyQcBCFnLiY6JbJ0WGMbe
+[webhook ALL EVENTS] 2026-04-05T14:33:34.301Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T14:33:34.302Z: meetingId: XyQcBCFnLiY6JbJ0WGMbe

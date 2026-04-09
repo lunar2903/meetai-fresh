@@ -1,0 +1,6 @@
+﻿Testing stream agent drop issue...
+Connecting...
+Internal close: { error: true }
+Connected successfully!
+Internal close: { error: false }
+2s later, is connected? false

@@ -1,0 +1,49 @@
+[webhook ALL EVENTS] 2026-04-05T09:48:01.525Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T09:48:15.232Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-05T09:48:15.236Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T09:48:15.237Z: meetingId: u-9oOSFj18aYh6T-NmuYO
+[webhook ALL EVENTS] 2026-04-05T09:48:15.545Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T09:48:15.751Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T09:48:16.494Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T09:48:16.495Z: meetingId: u-9oOSFj18aYh6T-NmuYO
+[webhook ALL EVENTS] 2026-04-05T09:48:16.666Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T09:48:17.828Z: Received event type: call.session_participant_joined
+[webhook connectOpenAi Success] 2026-04-05T09:48:18.970Z: agent-server responded: {"status":"connected"} for meeting u-9oOSFj18aYh6T-NmuYO
+[webhook ALL EVENTS] 2026-04-05T09:55:11.441Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T10:00:13.205Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T10:00:41.757Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-05T10:00:43.238Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-05T10:38:07.439Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-05T10:38:36.745Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-05T10:38:36.751Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T10:38:36.752Z: meetingId: -HBgAg5Xjm1P5TcArrE8e
+[webhook ALL EVENTS] 2026-04-05T10:38:37.016Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T10:38:37.184Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T10:38:37.922Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T10:38:37.924Z: meetingId: -HBgAg5Xjm1P5TcArrE8e
+[webhook ALL EVENTS] 2026-04-05T10:38:39.669Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T10:38:39.670Z: meetingId: -HBgAg5Xjm1P5TcArrE8e
+[webhook ALL EVENTS] 2026-04-05T10:38:39.702Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T10:38:40.808Z: Received event type: call.session_participant_joined
+[webhook connectOpenAi Success] 2026-04-05T10:38:41.922Z: agent-server responded: {"status":"connected"} for meeting -HBgAg5Xjm1P5TcArrE8e
+[webhook ALL EVENTS] 2026-04-05T10:42:14.818Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T10:46:29.192Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T10:46:29.193Z: Received event type: call.created
+[webhook ALL EVENTS] 2026-04-05T10:46:29.630Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T10:47:07.992Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T10:47:07.994Z: meetingId: QyfQPbW4ob98GlMvOZAG-
+[webhook ALL EVENTS] 2026-04-05T10:47:08.010Z: Received event type: call.session_participant_joined
+[webhook ALL EVENTS] 2026-04-05T10:47:08.332Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T10:47:08.508Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T10:47:09.261Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T10:47:09.262Z: meetingId: QyfQPbW4ob98GlMvOZAG-
+[webhook ALL EVENTS] 2026-04-05T10:47:10.499Z: Received event type: user.updated
+[webhook ALL EVENTS] 2026-04-05T10:47:11.016Z: Received event type: call.session_started
+[webhook session_started] 2026-04-05T10:47:11.017Z: meetingId: QyfQPbW4ob98GlMvOZAG-
+[webhook ALL EVENTS] 2026-04-05T10:47:11.596Z: Received event type: call.session_participant_joined
+[webhook connectOpenAi Success] 2026-04-05T10:47:12.161Z: agent-server responded: {"status":"connected"} for meeting QyfQPbW4ob98GlMvOZAG-
+[webhook ALL EVENTS] 2026-04-05T10:47:15.093Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T10:47:45.014Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-05T10:48:43.976Z: Received event type: call.session_ended
+[webhook ALL EVENTS] 2026-04-05T10:48:44.042Z: Received event type: call.session_participant_left
+[webhook ALL EVENTS] 2026-04-05T10:48:44.243Z: Received event type: call.session_participant_left

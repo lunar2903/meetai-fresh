@@ -1,0 +1,9 @@
+﻿SERVER MSG: undefined {
+  StatusCode: 401,
+  code: 2,
+  details: [],
+  duration: '0',
+  message: 'VideoConnectAiAgent failed with error: "api_key not valid"',
+  more_info: 'https://getstream.io/chat/docs/api_errors_response'
+}
+Connected successfully! Waiting for errors...

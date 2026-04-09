@@ -1,4 +1,5 @@
 import OpenAI from "openai";
+import fs from "node:fs";
 import { and, eq, not } from "drizzle-orm";
 import { NextRequest, NextResponse } from "next/server";
 import { ChatCompletionMessageParam } from "openai/resources/index.mjs";
@@ -20,17 +21,22 @@ import { streamChat } from "@/lib/stream-chat";
 
 const openaiClient = new OpenAI({ apiKey: process.env.OPENAI_API_KEY! });
 
+// Keep realtime clients alive at the module level so they aren't garbage-collected
+// when the webhook handler returns. Without this the WebSocket connections to
+// Stream and OpenAI are dropped immediately after the HTTP response is sent.
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const activeRealtimeClients = new Map<string, any>();
+
 function verifySignatureWithSDK(body: string, signature: string): boolean {
   return streamVideo.verifyWebhook(body, signature);
 };
 
 export async function POST(req: NextRequest) {
   const signature = req.headers.get("x-signature");
-  const apiKey = req.headers.get("x-api-key");
 
-  if (!signature || !apiKey) {
+  if (!signature) {
     return NextResponse.json(
-      { error: "Missing signature or API key" },
+      { error: "Missing signature" },
       { status: 400 }
     );
   }
@@ -50,6 +56,9 @@ export async function POST(req: NextRequest) {
 
   const eventType = (payload as Record<string, unknown>)?.type;
 
+  // DIAGNOSTIC LOG ALL EVENTS
+  fs.appendFileSync('d:/Antigravity/meet-ai-fresh/webhook-debug.log', `[webhook ALL EVENTS] ${new Date().toISOString()}: Received event type: ${eventType}\n`);
+
   if (eventType === "call.session_started") {
     const event = payload as CallSessionStartedEvent;
     const meetingId = event.call.custom?.meetingId;
@@ -58,6 +67,9 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Missing meetingId" }, { status: 400 });
     }
 
+    console.log(`[webhook] call.session_started for meetingId: ${meetingId}`);
+    fs.appendFileSync('d:/Antigravity/meet-ai-fresh/webhook-debug.log', `[webhook session_started] ${new Date().toISOString()}: meetingId: ${meetingId}\n`);
+
     const [existingMeeting] = await db
       .select()
       .from(meetings)
@@ -65,13 +77,13 @@ export async function POST(req: NextRequest) {
         and(
           eq(meetings.id, meetingId),
           not(eq(meetings.status, "completed")),
-          not(eq(meetings.status, "active")),
           not(eq(meetings.status, "cancelled")),
           not(eq(meetings.status, "processing")),
         )
       );
 
     if (!existingMeeting) {
+      console.log(`[webhook] Meeting not found or in terminal status for id: ${meetingId}`);
       return NextResponse.json({ error: "Meeting not found" }, { status: 404 });
     }
 
@@ -83,25 +95,109 @@ export async function POST(req: NextRequest) {
       })
       .where(eq(meetings.id, existingMeeting.id));
 
+    // Start recording/transcription from the backend as a reliable fallback.
+    // Client-side start can race with auth/session init and fail silently.
+    try {
+      const call = streamVideo.video.call("default", meetingId);
+      await call.startRecording();
+      fs.appendFileSync(
+        "d:/Antigravity/meet-ai-fresh/webhook-debug.log",
+        `[webhook recording_start] ${new Date().toISOString()}: started for meeting ${meetingId}\n`
+      );
+    } catch (error: unknown) {
+      const message = error instanceof Error ? error.message : String(error);
+      fs.appendFileSync(
+        "d:/Antigravity/meet-ai-fresh/webhook-debug.log",
+        `[webhook recording_start_error] ${new Date().toISOString()}: ${message} for meeting ${meetingId}\n`
+      );
+      if (!message.toLowerCase().includes("already being recorded")) {
+        console.warn(`[webhook] startRecording fallback failed for ${meetingId}: ${message}`);
+      }
+    }
+    try {
+      const call = streamVideo.video.call("default", meetingId);
+      await call.startTranscription();
+      fs.appendFileSync(
+        "d:/Antigravity/meet-ai-fresh/webhook-debug.log",
+        `[webhook transcription_start] ${new Date().toISOString()}: started for meeting ${meetingId}\n`
+      );
+    } catch (error: unknown) {
+      const message = error instanceof Error ? error.message : String(error);
+      fs.appendFileSync(
+        "d:/Antigravity/meet-ai-fresh/webhook-debug.log",
+        `[webhook transcription_start_error] ${new Date().toISOString()}: ${message} for meeting ${meetingId}\n`
+      );
+      if (!message.toLowerCase().includes("already being transcribed")) {
+        console.warn(`[webhook] startTranscription fallback failed for ${meetingId}: ${message}`);
+      }
+    }
+
     const [existingAgent] = await db
       .select()
       .from(agents)
       .where(eq(agents.id, existingMeeting.agentId));
 
     if (!existingAgent) {
+      console.log(`[webhook] Agent not found for id: ${existingMeeting.agentId}`);
       return NextResponse.json({ error: "Agent not found" }, { status: 404 });
     }
 
-    const call = streamVideo.video.call("default", meetingId);
-    const realtimeClient = await streamVideo.video.connectOpenAi({
-      call,
-      openAiApiKey: process.env.OPENAI_API_KEY!,
-      agentUserId: existingAgent.id,
-    });
+    // Deduplicate — Stream fires session_started multiple times
+    if (activeRealtimeClients.has(meetingId)) {
+      console.log(`[webhook] Agent already active for: ${meetingId}. Ignoring duplicate event.`);
+      return NextResponse.json({ success: true, duplicate: true });
+    }
+    activeRealtimeClients.set(meetingId, true); // placeholder to block duplicates
 
-    realtimeClient.updateSession({
-      instructions: existingAgent.instructions,
-    });
+    console.log(`[webhook] Delegating agent connection to persistent agent-server for: ${meetingId}`);
+
+    try {
+      // Delegate to the standalone agent-server.mjs process which holds the
+      // WebSocket open for the full meeting. This avoids Next.js request lifecycle
+      // killing our WebSocket connections after the HTTP response is sent.
+      const agentServerResponse = await fetch('http://localhost:3001/connect-agent', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          meetingId,
+          agentUserId: existingAgent.id,
+          agentName: existingAgent.name,
+          instructions: existingAgent.instructions,
+        }),
+      });
+
+      const result = await agentServerResponse.json();
+
+      // agent-server can respond with { error } and/or non-2xx when realtime connect fails.
+      // Treat both as a failure and release dedupe lock so duplicate session_started events can retry.
+      if (!agentServerResponse.ok || result?.error) {
+        activeRealtimeClients.delete(meetingId);
+        const details =
+          typeof result?.error === "string"
+            ? result.error
+            : JSON.stringify(result);
+        fs.appendFileSync(
+          'd:/Antigravity/meet-ai-fresh/webhook-debug.log',
+          `[webhook connectOpenAi Error] ${new Date().toISOString()}: agent-server rejected: ${details}\n`
+        );
+        return NextResponse.json(
+          { error: "Failed to connect agent", details },
+          { status: 502 }
+        );
+      }
+
+      fs.appendFileSync('d:/Antigravity/meet-ai-fresh/webhook-debug.log',
+        `[webhook connectOpenAi Success] ${new Date().toISOString()}: agent-server responded: ${JSON.stringify(result)} for meeting ${meetingId}\n`);
+      console.log(`[webhook] agent-server response:`, result);
+
+    } catch (error: unknown) {
+      activeRealtimeClients.delete(meetingId);
+      const errorMsg = error instanceof Error ? error.message : String(error);
+      console.error(`[webhook] Failed to reach agent-server:`, errorMsg);
+      fs.appendFileSync('d:/Antigravity/meet-ai-fresh/webhook-debug.log',
+        `[webhook connectOpenAi Error] ${new Date().toISOString()}: ${errorMsg}\n`);
+      return NextResponse.json({ error: "Failed to connect", details: errorMsg }, { status: 500 });
+    }
   } else if (eventType === "call.session_participant_left") {
     const event = payload as CallSessionParticipantLeftEvent;
     const meetingId = event.call_cid.split(":")[1]; // call_cid is formatted as "type:id"
@@ -110,14 +206,26 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Missing meetingId" }, { status: 400 });
     }
 
-    const call = streamVideo.video.call("default", meetingId);
-    await call.end();
+    // Do nothing for now, just log. 
+    // We should NOT end the entire call when a single participant leaves.
+    console.log(`[webhook] Participant left call: ${meetingId}`);
   } else if (eventType === "call.session_ended") {
     const event = payload as CallEndedEvent;
     const meetingId = event.call.custom?.meetingId;
 
     if (!meetingId) {
       return NextResponse.json({ error: "Missing meetingId" }, { status: 400 });
+    }
+
+    // Clean up the realtime client when the call session ends.
+    if (activeRealtimeClients.has(meetingId)) {
+      console.log(`[webhook] Cleaning up realtime client for ended session: ${meetingId}`);
+      try {
+        await activeRealtimeClients.get(meetingId)?.disconnect?.();
+      } catch {
+        // Ignore cleanup errors
+      }
+      activeRealtimeClients.delete(meetingId);
     }
 
     await db
@@ -127,6 +235,11 @@ export async function POST(req: NextRequest) {
         endedAt: new Date(),
       })
       .where(and(eq(meetings.id, meetingId), eq(meetings.status, "active")));
+
+    await inngest.send({
+      name: "meetings/assets-sync",
+      data: { meetingId },
+    });
   } else if (eventType === "call.transcription_ready") {
     const event = payload as CallTranscriptionReadyEvent;
     const meetingId = event.call_cid.split(":")[1]; // call_cid is formatted as "type:id"

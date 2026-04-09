@@ -2,6 +2,8 @@ import { z } from "zod";
 import JSONL from "jsonl-parse-stringify";
 import { TRPCError } from "@trpc/server";
 import { and, count, desc, eq, getTableColumns, ilike, inArray, sql } from "drizzle-orm";
+import OpenAI from "openai";
+import { ChatCompletionMessageParam } from "openai/resources/index.mjs";
 
 import { db } from "@/db";
 import { agents, meetings, user } from "@/db/schema";
@@ -13,6 +15,8 @@ import { DEFAULT_PAGE, DEFAULT_PAGE_SIZE, MAX_PAGE_SIZE, MIN_PAGE_SIZE } from "@
 import { MeetingStatus, StreamTranscriptItem } from "../types";
 import { meetingsInsertSchema, meetingsUpdateSchema } from "../schemas";
 import { streamChat } from "@/lib/stream-chat";
+
+const openaiClient = new OpenAI({ apiKey: process.env.OPENAI_API_KEY! });
 
 export const meetingsRouter = createTRPCRouter({
   generateChatToken: protectedProcedure.mutation(async ({ ctx }) => {
@@ -137,6 +141,115 @@ export const meetingsRouter = createTRPCRouter({
 
     return token;
   }),
+  askAi: protectedProcedure
+    .input(
+      z.object({
+        meetingId: z.string(),
+        text: z.string().min(1),
+      })
+    )
+    .mutation(async ({ ctx, input }) => {
+      const [existingMeeting] = await db
+        .select()
+        .from(meetings)
+        .where(
+          and(
+            eq(meetings.id, input.meetingId),
+            eq(meetings.userId, ctx.auth.user.id),
+            eq(meetings.status, "completed")
+          )
+        );
+
+      if (!existingMeeting) {
+        throw new TRPCError({
+          code: "NOT_FOUND",
+          message: "Meeting not found",
+        });
+      }
+
+      const [existingAgent] = await db
+        .select()
+        .from(agents)
+        .where(eq(agents.id, existingMeeting.agentId));
+
+      if (!existingAgent) {
+        throw new TRPCError({
+          code: "NOT_FOUND",
+          message: "Agent not found",
+        });
+      }
+
+      const instructions = `
+      You are an AI assistant helping the user revisit a recently completed meeting.
+      Below is a summary of the meeting, generated from the transcript:
+      
+      ${existingMeeting.summary}
+      
+      The following are your original instructions from the live meeting assistant. Please continue to follow these behavioral guidelines as you assist the user:
+      
+      ${existingAgent.instructions}
+      
+      The user may ask questions about the meeting, request clarifications, or ask for follow-up actions.
+      Always base your responses on the meeting summary above.
+      
+      You also have access to the recent conversation history between you and the user. Use the context of previous messages to provide relevant, coherent, and helpful responses. If the user's question refers to something discussed earlier, make sure to take that into account and maintain continuity in the conversation.
+      
+      If the summary does not contain enough information to answer a question, politely let the user know.
+      
+      Be concise, helpful, and focus on providing accurate information from the meeting and the ongoing conversation.
+      `;
+
+      const channel = streamChat.channel("messaging", input.meetingId);
+      await channel.watch();
+
+      const previousMessages = channel.state.messages
+        .slice(-8)
+        .filter((msg) => msg.text && msg.text.trim() !== "")
+        .map<ChatCompletionMessageParam>((message) => ({
+          role: message.user?.id === existingAgent.id ? "assistant" : "user",
+          content: message.text || "",
+        }));
+
+      const GPTResponse = await openaiClient.chat.completions.create({
+        messages: [
+          { role: "system", content: instructions },
+          ...previousMessages,
+          { role: "user", content: input.text },
+        ],
+        model: "gpt-4o",
+      });
+
+      const GPTResponseText = GPTResponse.choices[0].message.content;
+
+      if (!GPTResponseText) {
+        throw new TRPCError({
+          code: "BAD_REQUEST",
+          message: "No response from GPT",
+        });
+      }
+
+      const avatarUrl = generateAvatarUri({
+        seed: existingAgent.name,
+        variant: "botttsNeutral",
+      });
+
+      await streamChat.upsertUser({
+        id: existingAgent.id,
+        name: existingAgent.name,
+        image: avatarUrl,
+      });
+
+      await channel.sendMessage({
+        text: GPTResponseText,
+        user: {
+          id: existingAgent.id,
+          name: existingAgent.name,
+          image: avatarUrl,
+        },
+      });
+
+      return { ok: true };
+    }),
   remove: protectedProcedure
     .input(z.object({ id: z.string() }))
     .mutation(async ({ ctx, input }) => {
